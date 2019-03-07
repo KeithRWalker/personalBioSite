@@ -2,3 +2,29 @@ body{
     background-color: black;
     color: whitesmoke;
 }
+
+.fullpage{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.projectDiv{
+    background-color: darkgray;
+    border: 1px solid red;
+    display: flex;
+    flex-flow: column wrap;
+    align-self: center;
+}
+
+.projectHeader{
+    border: 1px dashed blue;
+    align-self: center;
+}
+
+.projectSec{
+    border: 1px dashed green;
+}
+
+.projectFooter{
+    border: 1px dashed yellow;
+}
