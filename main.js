@@ -57,12 +57,20 @@ const createProjectCards = () => {
 
     for (let i = 0; i<projects.length; i++){
         if(projects[i].available === true){
-            pcString +=`<h2>Project Title: ${projects[i].title}</h2>`;
-            pcString +=`<img src= "${projects[i].screenshot}">`;
-            pcString +=`<p>${projects[i].description}</p>`;
-            pcString +=`<p>Tech Used: ${projects[i].technologiesUsed}</p>`;
-            pcString +=`<a href="${projects[i].url}">Link to project</a>`;
-            pcString +=`<a href="${projects[i].githubUrl}">Link to GitHub</a>`;
+            pcString += `<div class="projectDiv">`;
+            pcString +=     `<header class= "projectHeader">`;
+            pcString +=         `<h2 class= "projectTitle"> Project Title: ${projects[i].title} </h2>`;
+            pcString +=         `<img src= "${projects[i].screenshot}" alt="Project Img" class ="projectImg">`;
+            pcString +=     `</header>`;
+            pcString +=     `<section class="projectSec">`;
+            pcString +=         `<p> ${projects[i].description} </p>`;
+            pcString +=         `<p> Tech Used: ${projects[i].technologiesUsed} </p>`;
+            pcString +=     `</section>`;
+            pcString +=     `<footer class= "projectFooter">`
+            pcString +=         `<a href="${projects[i].url}">Link to project</a>`;
+            pcString +=         `<a href="${projects[i].githubUrl}">Link to GitHub</a>`;
+            pcString +=     `</footer>`
+            pcString += `</div>`;
         };
     };
     print('projectsPage', pcString);
