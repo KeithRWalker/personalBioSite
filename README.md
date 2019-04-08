@@ -28,6 +28,12 @@
     * I created an array of project card objects in JavaScript
     * Created functions to both loop through the array, and print the values of each object directly to the DOM
     * Created a conditional that only prints objects with set value of true.
+
+* ###### Updates
+* [3/19 Assignment](https://github.com/nss-nightclass-projects/personal-bio-site-instructions/blob/master/personal-bio-site-02.md)
+    * Converted the page into a Single Page Application
+    * Added a Navbar
+    * Added a Carousel with some pictures of my travels to show on a main page
 ****************
 #### Screenshot
 ****************
