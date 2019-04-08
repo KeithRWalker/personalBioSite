@@ -1,81 +1,81 @@
+/* Body Styling + Fonts + Background*/
 body{
-        /* border: 2px solid salmon; */
     background-image: url(./imgs/circut.jpg);
     background-attachment: fixed;
     color: whitesmoke;
     text-align: center;
-    display: flex;
-    flex-flow: column wrap;
-    align-content: center;
     font-family: 'Orbitron', sans-serif;
 }
+
+/* Keeps things contained in the middle */
 .mainContainer{
-    /* border: 2px dashed royalblue; */
     width: 75%;
-    display: flex;
-    flex-flow: column nowrap;
-    /* margin: 3em 0 3em 0; */
-    background-color: rgba(53, 170, 73, 0.39);
-    border-radius: 2em;
+    margin: 0 auto;
 }
 
-.secondContainer{
+/* Middle box with semi transparent background holds all content */
+.contentCon{
     background-color: rgba(0, 0, 0, 0.692);
+    padding-top: 4em;
+    min-height: 100%;
     display: flex;
     flex-flow: column nowrap;
-    border-radius: 0em 0em 2em 2em;
-    padding-top: 4em;
 }
 
-.fullpage{
-    /* border: 2px solid white; */
-    display: flex;
-    flex-flow: column wrap;
-    align-self: center;
-    /* background-color: rgba(0, 0, 0, 0.205); */
-    width: 75%;
-}
-
-.projectDiv{
-    /* border: 1px solid red; */
-    background-color: rgba(23, 93, 13, 0.5);
-    display: flex;
-    flex-flow: column wrap;
-    align-self: center;
-    justify-self: center;
-    width: 20em;
-    height: 30em;
-    padding: 0 1em 0 1em;
-    margin: 1em 0 1em 0;
-    text-align: center;
-    border-radius: 2em;
-}
-
-.projectDiv > *{
-    align-self: center;
-}
-
-#bioPage {
+/* Holds the Bio section of the page */
+.bioCon{
     max-width: 50em;
     font-size: 1em;
     line-height: 2em;
+    margin: 0 auto;
 }
 
+/* Holds the cards that are printed to the dom from JavaScript important to keep this above hideCon stuff */
+.projectsCon{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+/* Styling for the cards that get printed from JavaScript Keep this above hideCon stuff */
+.projectCard{
+    border: 1px solid red;
+    background-color: rgba(23, 93, 13, 0.5);
+    padding: 0em 1em 0em 0em;
+    margin: 2em;
+    text-align: center;
+    border-radius: 2em;
+    width: 25%;
+}
+
+/* For the tech ul to hide the dots probably need to give it a class */
 ul{
     padding: 0;
     list-style-type: none;
 }
 
-a {
+/* link styling maybe more specific? */
+a{
     color: rgb(91, 146, 105);
     font-weight: bolder;
     font-style: italic;
 }
-.navBarMain{
-    background-color: rgb(0, 68, 0);
-    font-size: 46px;
+
+/* Navbar styling */
+.navbar{
+    background-color: rgba(0, 0, 0, 0.658);
+    position: fixed;
+    width: 75%;
+    margin-left: 12.5%; 
 }
-.navLink{
-    display: inline;
-    margin: 15px;
+
+/* Line over footer */
+hr{
+    border: 2px solid rgb(91, 146, 105);
+}
+
+/* This hides parts of the page on load !!IMPORTANT TO KEEP THIS AS FAR DOWN AS I CAN!! */
+.hideCon{
+    display: none;
 }
