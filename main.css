@@ -23,7 +23,8 @@ body{
     background-color: rgba(0, 0, 0, 0.692);
     display: flex;
     flex-flow: column nowrap;
-    border-radius: 2em;
+    border-radius: 0em 0em 2em 2em;
+    padding-top: 4em;
 }
 
 .fullpage{
@@ -69,4 +70,12 @@ a {
     color: rgb(91, 146, 105);
     font-weight: bolder;
     font-style: italic;
+}
+.navBarMain{
+    background-color: rgb(0, 68, 0);
+    font-size: 46px;
+}
+.navLink{
+    display: inline;
+    margin: 15px;
 }
