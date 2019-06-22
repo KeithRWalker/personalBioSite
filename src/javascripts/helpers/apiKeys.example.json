@@ -1,0 +1,11 @@
+{
+  "firebaseKeys": {
+    "apiKey": "sorryNotARealApiKey",
+    "authDomain": "example.firebaseapp.com",
+    "databaseURL": "https://example.firebaseio.com",
+    "projectId": "example-123456789",
+    "storageBucket": "example-666.google.com",
+    "messagingSenderId": "123456789",
+    "appId": "123456789"
+  }
+}
