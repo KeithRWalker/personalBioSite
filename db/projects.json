@@ -1,0 +1,47 @@
+{
+  "project0": {
+    "title": "Project 1", 
+    "screenshot": "https://www.placecage.com/gif/300/300", 
+    "description": "This is the best project 1",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+  },
+  "project1": {
+    "title": "Project 2", 
+    "screenshot": "https://www.placecage.com/gif/300/300", 
+    "description": "This is the best project 2",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+  },
+  "project2": {
+    "title": "Project 3", 
+    "screenshot": "https://www.placecage.com/gif/300/300", 
+    "description": "This is the best project 3",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+  },
+  "project3": {
+    "title": "Project 4", 
+    "screenshot": "https://www.placecage.com/gif/300/300", 
+    "description": "This is the best project 4",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+  },
+  "project4": {
+    "title": "Project 5", 
+    "screenshot": "https://www.placecage.com/gif/300/300", 
+    "description": "This is the best project 5",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+  }
+}
