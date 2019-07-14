@@ -1,47 +1,46 @@
 {
   "project0": {
-    "title": "Project 1", 
-    "screenshot": "https://www.placecage.com/gif/300/300", 
-    "description": "This is the best project 1",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "title": "Movie Night", 
+    "description": "An App for tracking movies that you have, and want to watch. Soon to implement an API to populate the app with a catalog of titles.",
+    "technologiesUsed": "HTML, CSS, JavaScript, Firebase, Version Control with Github",
     "available": true,
-    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    "url": "https://my-movies-fbae7.firebaseapp.com",
+    "githubUrl": "https://github.com/KeithRWalker/Movie-Night"
   },
   "project1": {
-    "title": "Project 2", 
+    "title": "Fish Store", 
     "screenshot": "https://www.placecage.com/gif/300/300", 
-    "description": "This is the best project 2",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "description": "A Simple web store to purchase fish with basic ecommerce functionality written with React",
+    "technologiesUsed": "HTML, CSS, JavaScript, React, Firebase Version Control with Github",
     "available": true,
-    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    "url": "https://fish-store-bcd2b.web.app/",
+    "githubUrl": "https://github.com/KeithRWalker/fish-store"
   },
   "project2": {
-    "title": "Project 3", 
+    "title": "V-Pet", 
     "screenshot": "https://www.placecage.com/gif/300/300", 
-    "description": "This is the best project 3",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "description": "A simple Virtual pet app that has the user press buttons to keep their pet alive",
+    "technologiesUsed": "HTML, CSS, JavaScript, Firebase, Version Control with Github",
     "available": true,
-    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    "url": "https://v-pet-f8185.firebaseapp.com",
+    "githubUrl": "https://github.com/KeithRWalker/v-pet"
   },
   "project3": {
-    "title": "Project 4", 
+    "title": "BDay", 
     "screenshot": "https://www.placecage.com/gif/300/300", 
-    "description": "This is the best project 4",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "description": "A simple app that lets friends login, and RSVP for Events",
+    "technologiesUsed": "HTML, CSS, JavaScript, Firebase, Version Control with Github",
     "available": true,
-    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    "url": "https://bday-55d77.firebaseapp.com/",
+    "githubUrl": "https://github.com/KeithRWalker/bday"
   },
   "project4": {
-    "title": "Project 5", 
+    "title": "Capstone Project", 
     "screenshot": "https://www.placecage.com/gif/300/300", 
-    "description": "This is the best project 5",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "description": "Front End Capstone Project (WORK IN PROGRESS)",
+    "technologiesUsed": "WIP",
     "available": true,
-    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    "url": "https://github.com/KeithRWalker/builds-capstone",
+    "githubUrl": "https://github.com/KeithRWalker/builds-capstone"
   }
 }

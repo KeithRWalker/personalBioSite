@@ -3,6 +3,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display|Noto+Sans+TC&display=swap" rel="stylesheet">
   <title>Keith Walker's Bio Page</title>
 </head>
 
@@ -14,16 +15,16 @@
 
     <ul class="navbar-nav">
 
-      <li class="nav-item active">
+      <!-- <li class="nav-item active">
         <a id="bioLink" class="nav-link navBtn" href="#">Bio</a>
+      </li> -->
+
+      <li class="nav-item">
+        <a class="nav-link navBtn" href="https://www.linkedin.com/in/keith-walker-310594188/" target="_blank">LinkedIn</a>
       </li>
 
       <li class="nav-item">
-        <a id="techLink" class="nav-link navBtn" href="#">Tech</a>
-      </li>
-
-      <li class="nav-item">
-        <a id="projectsLink" class="nav-link navBtn" href="#">Projects</a>
+        <a id="projectsLink" class="nav-link navBtn" href="https://github.com/KeithRWalker" target="_blank">Github</a>
       </li>
     </ul>
   </nav>
@@ -33,98 +34,43 @@
     <!--Container-->
     <div class="contentCon">
 
-      <!-- First View Caroseul-->
-      <div class="container carCon" id="carPage">
-        <div class="row" id="carRow">
-          <div class="col-xl">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" id="carOne">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="http://bit.ly/2SaCNye" class="d-block w-100" alt="cliffSide">
-                </div>
-                <div class="carousel-item">
-                  <img src="http://bit.ly/2Rjcamj" class="d-block w-100" alt="cloverBay">
-                </div>
-                <div class="carousel-item">
-                  <img src="http://bit.ly/2Rk2jfO" class="d-block w-100" alt="caliRiver">
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-        </div>
+      <div class="page-header">
+        <h1> Keith Walker</h1>
+        <h6>Web Developer</h6>
+            <p class="tech">/ HTML / CSS / SCSS (sass) / JavaScript / React / GitHub / CompTIA A+ /</p>
       </div>
-
-      <!--Bio Page-->
-      <div class="bioCon hideCon" id="bioPage">
-        <h4 class="bioH">Bio</h4>
+      <hr />
+      <div class="bio-con">
         <p class="bioP">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, ipsa aspernatur.
-            Consequuntur aut quae cupiditate aperiam excepturi impedit inventore culpa qui, 
-            dolores assumenda ratione quis architecto eius dolorum perspiciatis fugit.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, ipsa aspernatur.
-            Consequuntur aut quae cupiditate aperiam excepturi impedit inventore culpa qui, 
-            dolores assumenda ratione quis architecto eius dolorum perspiciatis fugit.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, ipsa aspernatur.
-            Consequuntur aut quae cupiditate aperiam excepturi impedit inventore culpa qui, 
-            dolores assumenda ratione quis architecto eius dolorum perspiciatis fugit.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, ipsa aspernatur.
-            Consequuntur aut quae cupiditate aperiam excepturi impedit inventore culpa qui, 
-            dolores assumenda ratione quis architecto eius dolorum perspiciatis fugit.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, ipsa aspernatur.
-            Consequuntur aut quae cupiditate aperiam excepturi impedit inventore culpa qui, 
-            dolores assumenda ratione quis architecto eius dolorum perspiciatis fugit.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, ipsa aspernatur.
-            Consequuntur aut quae cupiditate aperiam excepturi impedit inventore culpa qui, 
-            dolores assumenda ratione quis architecto eius dolorum perspiciatis fugit. 
+          I'm  web developer from Chicago, who has lived in Washington, Alaska, California, and a few other states over the years.
+          I moved to the Nashville area in 2017, and started developing in 2018.
+          I have worked as a Fisherman, Ski Lift Operator, Farmhand, and worksite supervisor.
+          My hobbies include Snowboarding, Roadtrips, and spending time with my family.
         </p>
       </div>
-      
-      <!--Tech Page-->
-      <div class="techCon hideCon" id="techPage">
-        <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
-        <h6>Learned Technology</h6>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Git/GitHub</li>
-            <li>CompTIA A+</li>
-        </ul>
+      <hr />
+
+      <div class="projects-header">      
+        <h1> Projects </h1>
       </div>
 
-      <!--Projects-->
-      <div class="projectsCon hideCon" id="projectsPage"></div>
+      <div class="projectsCon" id="projectsPageCon"></div>
+      <!-- <div class="accordion projectsCon" id="projectsPage"></div> -->
 
-      <!--Footer-->
       <footer class="page-footer">
-          <hr>
+          <hr />
           <address class="contactMe">
                 Contact me:
-            <br>
-                EMAIL: <a href="mailto:KeithRWalker418@gmail.com">KeithRWalker418@gmail.com</a>
-            <br>
-                PHONE: <a href="tel: 1-708-935-7717">1.708.935.7717</a>
-            <br>
-                GITHUB: <a href="https://github.com/KeithRWalker">github.com/KeithRWalker</a>
-            <br>
-                TEAM TREEHOUSE: <a href="https://teamtreehouse.com/keithrwalker">teamtreehouse.com/keithrwalker</a>
+                <br />
+                <a href="https://github.com/KeithRWalker">Github</a>
+                <br />
+                <a href="https://www.linkedin.com/in/keith-walker-310594188/">LinkedIn</a>
+                <br />
+                <a href="mailto:KeithRWalker418@gmail.com">KeithRWalker418@gmail.com</a>
           </address>
       </footer>
-      
-    </div>
+
+      </div>
   </div>
 </body>
 </html>
