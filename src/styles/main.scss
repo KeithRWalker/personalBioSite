@@ -1,12 +1,26 @@
 @import '~bootstrap/scss/bootstrap';
+// font-family: 'DM Serif Display', serif;
+// font-family: 'Noto Sans TC', sans-serif;
+
+html{
+  background-color: #101010;
+  color: FFFFFF;
+  font-family: 'Noto Sans TC', serif;
+}
 
 /* Body Styling + Fonts + Background*/
 body{
-    background-image: url(https://previews.123rf.com/images/chuyu/chuyu1212/chuyu121200092/17048157-blue-circuit-board-background-of-computer-motherboard.jpg);
-    background-attachment: fixed;
-    color: whitesmoke;
+    background-color: #101010;
+    color: FFFFFF;
     text-align: center;
-    font-family: 'Orbitron', sans-serif;
+    // font-family: 'Orbitron', sans-serif;
+}
+
+a{
+  color: rgb(148, 148, 148);
+}
+a:hover{
+  color: aliceblue;
 }
 
 /* Keeps things contained in the middle */
@@ -15,74 +29,60 @@ body{
     margin: 0 auto;
 }
 
+.projects-header{
+  border-top: .25em outset rgb(141, 141, 141);
+  border-bottom: .25em outset rgb(141, 141, 141);
+}
+
 /* Middle box with semi transparent background holds all content */
 .contentCon{
-    background-color: rgba(0, 0, 0, 0.692);
-    padding-top: 4em;
+    background-color: rgba(0, 0, 0, 0.137);
+    padding-top: 1em;
     min-height: 100%;
     display: flex;
     flex-flow: column nowrap;
+    border: .25em outset rgb(141, 141, 141);
 }
 
 /* Holds the Bio section of the page */
-.bioCon{
-    max-width: 50em;
-    font-size: 1em;
-    line-height: 2em;
-    margin: 0 auto;
+.bio-con{
+  display: flex;
+  width: 25%;
+  align-self: center;
 }
 
 /* Holds the cards that are printed to the dom from JavaScript important to keep this above hideCon stuff */
 .projectsCon{
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 /* Styling for the cards that get printed from JavaScript Keep this above hideCon stuff */
 .projectCard{
-    border: 1px solid red;
-    background-color: rgba(23, 93, 13, 0.5);
-    padding: 0em 1em 0em 0em;
-    margin: 2em;
-    text-align: center;
-    border-radius: 2em;
-    width: 25%;
+  border: .5em #101010 outset;
+  margin: 1em;
+  text-align: center;
+  border-radius: 2em;
 }
 
-/* For the tech ul to hide the dots probably need to give it a class */
-ul{
-    padding: 0;
-    list-style-type: none;
-}
-
-/* link styling maybe more specific? */
-a{
-    color: rgb(91, 146, 105);
-    font-weight: bolder;
-    font-style: italic;
+.card-body{
+  justify-self: center;
+  align-self: center;
 }
 
 /* Navbar styling */
 .navbar{
-    background-color: rgba(0, 0, 0, 0.658);
-    position: fixed;
+    background-color: rgba(0, 0, 0, 0.137);
     width: 75%;
     margin-left: 12.5%; 
+    border-bottom: .25em rgb(141, 141, 141) outset;
+    border-left: .25em rgb(141, 141, 141) outset;
+    border-right: .25em rgb(141, 141, 141) outset;
 }
 
 /* Line over footer */
 hr{
-    border: 2px solid rgb(91, 146, 105);
-}
-
-/* This hides parts of the page on load !!IMPORTANT TO KEEP THIS AS FAR DOWN AS I CAN!! */
-.hideCon{
-    display: none;
-}
-
-.projectImg{
-  width: 200px;
-  height: 200px;
+    border: 2px solid rgb(141, 141, 141);
 }

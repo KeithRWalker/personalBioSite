@@ -4,17 +4,22 @@ import util from '../../helpers/util';
 const makeProjectCard = (projects) => {
   let string = '';
   projects.forEach((project) => {
-    string += '<div class="projectCard">';
-    string += `<h2 class= "projectTitle"> Project Title: ${project.title} </h2>`;
-    string += `<img src= "${project.screenshot}" alt="Project Img" class ="projectImg">`;
-    string += `<p> ${project.description} </p>`;
-    string += `<p class = "techP"> Tech Used: ${project.technologiesUsed} </p>`;
-    string += `<a href="${project.url}">Link to project</a>`;
-    string += '<br>';
-    string += `<a href="${project.githubUrl}">Link to GitHub</a>`;
+    string += '<div class="projectCard card bg-dark col-5">';
+    string += '<div class= "card-header">';
+    string += `   ${project.title}`;
+    string += '</div>';
+    string += '<div class="card-body">';
+    string += `   <p> ${project.description} </p>`;
+    string += `   <p class = "techP">${project.technologiesUsed} </p>`;
+    string += '</div>';
+    string += '<div class="card-footer">';
+    string += `   <a href="${project.url}" target="_blank">View Project</a><br />`;
+    string += `   <a href="${project.githubUrl}" target="_blank">View GitHub Project</a>`;
+    string += '</div>';
     string += '</div>';
   });
-  util.printToDomRep(string, 'projectsPage');
+  string += '';
+  util.printToDomRep(string, 'projectsPageCon');
 };
 
 const loadProjects = () => {
